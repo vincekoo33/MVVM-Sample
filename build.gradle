@@ -9,7 +9,7 @@ buildscript {
     ext.retrofit_version = '2.4.0'
     ext.rxjava_version = '2.1.10'
     ext.rxandroid_version = '2.0.2'
-
+    ext.mockito_version = '1.10.19'
 
     repositories {
         google()
