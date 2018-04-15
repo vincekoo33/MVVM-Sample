@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity
 
 abstract class BaseActivity<out ViewModel : BaseViewModel, Binding : ViewDataBinding> : AppCompatActivity() {
     abstract val viewModel: ViewModel
-    lateinit var binding: Binding
+    protected lateinit var binding: Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
