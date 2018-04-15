@@ -4,6 +4,14 @@
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/viewToFling"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:background="@android:color/holo_red_light" />
+
+    </android.support.constraint.ConstraintLayout>
 
 </layout>
